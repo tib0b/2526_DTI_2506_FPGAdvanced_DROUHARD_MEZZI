@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/home/thibaud/Documents/Ensea/S7-FPGA-AV/2526_DTI_2506_FPGAdvanced_DROUHARD_MEZZI/tp_nios_v/soft/app",
+      "program": "/home/thibaud/Documents/Ensea/S7-FPGA-AV/2526_DTI_2506_FPGAdvanced_DROUHARD_MEZZI/tp_nios_v/soft/app/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
